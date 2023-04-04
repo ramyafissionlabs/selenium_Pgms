@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-04T12:15:40 IST" name="Default suite" finished-at="2023-04-04T12:16:09 IST" duration-ms="28973">
+    <groups>
+      <group name="purchase">
+        <method signature="StandaloneTest.submit_order(java.util.HashMap)[pri:0, instance:Practice_Project.SeleniumFrameworkDesign.StandaloneTest@57cf54e1]" name="submit_order" class="Practice_Project.SeleniumFrameworkDesign.StandaloneTest"/>
+      </group> <!-- purchase -->
+    </groups>
+    <test started-at="2023-04-04T12:15:40 IST" name="Default test" finished-at="2023-04-04T12:16:09 IST" duration-ms="28973">
+      <class name="Practice_Project.SeleniumFrameworkDesign.StandaloneTest">
+        <test-method is-config="true" signature="launch_app()[pri:0, instance:Practice_Project.SeleniumFrameworkDesign.StandaloneTest@57cf54e1]" started-at="2023-04-04T12:15:40 IST" name="launch_app" finished-at="2023-04-04T12:15:45 IST" duration-ms="4303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_app -->
+        <test-method signature="submit_order(java.util.HashMap)[pri:0, instance:Practice_Project.SeleniumFrameworkDesign.StandaloneTest@57cf54e1]" started-at="2023-04-04T12:15:45 IST" name="submit_order" data-provider="getdata" finished-at="2023-04-04T12:15:48 IST" duration-ms="2909" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{prod_text=zara coat 3, pwd=Kalyan@1, email=kalyanr@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submit_order -->
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:Practice_Project.SeleniumFrameworkDesign.StandaloneTest@57cf54e1]" started-at="2023-04-04T12:15:48 IST" name="tear_down" finished-at="2023-04-04T12:15:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+        <test-method is-config="true" signature="launch_app()[pri:0, instance:Practice_Project.SeleniumFrameworkDesign.StandaloneTest@57cf54e1]" started-at="2023-04-04T12:15:48 IST" name="launch_app" finished-at="2023-04-04T12:15:49 IST" duration-ms="1548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_app -->
+        <test-method signature="submit_order(java.util.HashMap)[pri:0, instance:Practice_Project.SeleniumFrameworkDesign.StandaloneTest@57cf54e1]" started-at="2023-04-04T12:15:49 IST" name="submit_order" data-provider="getdata" finished-at="2023-04-04T12:16:03 IST" duration-ms="14291" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{prod_text=ADIDAS ORIGINAL, pwd=Sidnnn@1, email=sidd@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submit_order -->
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:Practice_Project.SeleniumFrameworkDesign.StandaloneTest@57cf54e1]" started-at="2023-04-04T12:16:03 IST" name="tear_down" finished-at="2023-04-04T12:16:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+        <test-method is-config="true" signature="launch_app()[pri:0, instance:Practice_Project.SeleniumFrameworkDesign.StandaloneTest@57cf54e1]" started-at="2023-04-04T12:16:03 IST" name="launch_app" finished-at="2023-04-04T12:16:08 IST" duration-ms="4930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_app -->
+        <test-method signature="orderdisplay()[pri:0, instance:Practice_Project.SeleniumFrameworkDesign.StandaloneTest@57cf54e1]" started-at="2023-04-04T12:16:08 IST" name="orderdisplay" finished-at="2023-04-04T12:16:09 IST" depends-on-methods="Practice_Project.SeleniumFrameworkDesign.StandaloneTest.submit_order" duration-ms="715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderdisplay -->
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:Practice_Project.SeleniumFrameworkDesign.StandaloneTest@57cf54e1]" started-at="2023-04-04T12:16:09 IST" name="tear_down" finished-at="2023-04-04T12:16:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- Practice_Project.SeleniumFrameworkDesign.StandaloneTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
